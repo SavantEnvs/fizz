@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_ticket_codec
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_ticket_codec
+    libfuzzer: true

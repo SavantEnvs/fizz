@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_ech_config_json
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_ech_config_json
+    libfuzzer: true

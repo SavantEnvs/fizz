@@ -1,0 +1,5 @@
+# Build context for mayhem/Dockerfile: keep local build outputs out of the image.
+mayhem/build-fuzz/
+mayhem/build-tests/
+mayhem/out/
+ctrf-report.json

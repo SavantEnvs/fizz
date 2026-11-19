@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_cert_decompress
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_cert_decompress
+    libfuzzer: true

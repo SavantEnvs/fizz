@@ -1,0 +1,8 @@
+project: savantenvs/fizz
+target: fizz_cookie_cipher
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fizz_cookie_cipher/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_cookie_cipher
+    libfuzzer: true

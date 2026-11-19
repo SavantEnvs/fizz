@@ -1,0 +1,8 @@
+project: savantenvs/fizz
+target: fizz_record_layer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fizz_record_layer/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_record_layer
+    libfuzzer: true

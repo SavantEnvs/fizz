@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_token_binding
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_token_binding
+    libfuzzer: true

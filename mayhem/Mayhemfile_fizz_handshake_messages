@@ -1,0 +1,8 @@
+project: savantenvs/fizz
+target: fizz_handshake_messages
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fizz_handshake_messages/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_handshake_messages
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_aead
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_aead
+    libfuzzer: true

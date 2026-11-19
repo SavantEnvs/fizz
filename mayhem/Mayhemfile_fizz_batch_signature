@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_batch_signature
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_batch_signature
+    libfuzzer: true

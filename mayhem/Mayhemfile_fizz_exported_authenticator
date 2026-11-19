@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_exported_authenticator
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_exported_authenticator
+    libfuzzer: true

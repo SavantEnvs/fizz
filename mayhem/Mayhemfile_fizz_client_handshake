@@ -1,0 +1,5 @@
+project: savantenvs/fizz
+target: fizz_client_handshake
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_client_handshake
+    libfuzzer: true

@@ -1,0 +1,8 @@
+project: savantenvs/fizz
+target: fizz_ech_server
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fizz_ech_server/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fizz_ech_server
+    libfuzzer: true
